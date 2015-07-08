@@ -1,4 +1,4 @@
-script: cd unix && make && cd ../book-ref && make
+script: cd book && make && cd ../book-ref && make
 language: c
 compiler:
         - clang
