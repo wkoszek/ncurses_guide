@@ -9,6 +9,15 @@ tarball with C sources is quite useful, as it contains small self-contained
 programs. To the sources I've added a makefile to make build automated and
 I've fixed programs which weren't compiling.
 
+# Dependencies
+
+For MacOSX: TBD (either nothing, or whatever brew installed as a dependency
+for the apps)
+
+For Ubuntu:
+
+	apt-get install libncurses5-dev libncurses5
+
 # How to build?
 
 Fetch the source, enter its folder and type make:
