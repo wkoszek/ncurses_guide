@@ -1,0 +1,8 @@
+script: cd unix && make && cd ../book-ref && make
+language: c
+compiler:
+        - clang
+        - gcc
+os:
+        - linux
+        - os
