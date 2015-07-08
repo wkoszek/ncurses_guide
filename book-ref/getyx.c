@@ -1,3 +1,4 @@
+#define _BSD_SOURCE
 #include <stdlib.h>
 #include <ncurses.h>
 #include <time.h>
