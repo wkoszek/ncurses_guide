@@ -7,7 +7,6 @@ int main(void)
 {
 	char labels[LCOUNT][19] = { "Help!", "File", "Print", "Text",
 						  "Edit", "Quick", "Config", "System" };
-	char *text;
 	int x;
 
 	slk_init(0);

@@ -5,6 +5,8 @@ int main(void)
 	WINDOW *win;
 	int vy,vx,stdy,stdx,winy,winx;
 
+	vy = vx = stdy = stdx = winy = winx = 0;
+
 	initscr();
 
 	win = newwin(5,20,10,30);

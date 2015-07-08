@@ -52,5 +52,6 @@ char *ncolor(int color)
 		case COLOR_WHITE:
 			return("White");
 	}
+	return("UNKNOWN!");
 }
 

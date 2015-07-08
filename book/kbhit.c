@@ -2,7 +2,7 @@
 
 int kbhit(void)
 {
-	int delay_stat,ch,r;
+	int ch,r;
 
 /* turn off getch() blocking and echo */
 	nodelay(stdscr,TRUE);
@@ -26,7 +26,6 @@ int kbhit(void)
 		
 int main(void)
 {
-	char name[80];
 
 	initscr();
 

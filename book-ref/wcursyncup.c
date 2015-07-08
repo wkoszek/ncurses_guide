@@ -3,7 +3,6 @@
 int main(void)
 {
 	WINDOW *sonny;
-	int a;
 
 	initscr();
 	start_color();

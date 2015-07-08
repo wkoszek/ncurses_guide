@@ -9,7 +9,6 @@ int main()
 {
 	FILE *wfile;
 	WINDOW *win;
-	int r;
 
 	initscr();
 	start_color();

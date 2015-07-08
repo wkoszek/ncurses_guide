@@ -2,7 +2,6 @@
 
 int main(void)
 {
-	int r;
 
 	initscr();
 	start_color();

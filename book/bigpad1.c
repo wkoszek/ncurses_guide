@@ -3,7 +3,6 @@
 int main()
 {
 	WINDOW *p;
-	int x,c;
 	
 	initscr();
 

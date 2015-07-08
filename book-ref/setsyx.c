@@ -4,6 +4,8 @@ int main(void)
 {
 	int y,x;
 
+	x = y = 0;
+
 	initscr();
 
 	setsyx(5,5);

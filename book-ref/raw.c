@@ -2,7 +2,6 @@
 
 int main(void)
 {
-	int ch;
 	initscr();
 
 	raw();

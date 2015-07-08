@@ -10,7 +10,7 @@ int main()
 	int x,w,r;
 
 	srandom((unsigned)time(NULL));	/* seed randomizer */
-	word[7] = '\0';
+	word[6] = '\0';
 	initscr();
 
 /* Fill most of the screen with random 6-char words */

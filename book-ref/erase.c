@@ -12,7 +12,7 @@ int main(void)
 	refresh();
 	getch();
 
-	earse();		/* clear the screen */
+	erase();		/* clear the screen */
 	refresh();		/* don't forget this! */
 	getch();
 

@@ -3,7 +3,6 @@
 int main(void)
 {
 	int y,x,a,b;
-	char ch;
 	char s[] = "Excuse me while I squeeze in here!";
 
 	initscr();

@@ -3,10 +3,12 @@
 int main(void)
 {
 	int x = 0;
-	int stdbot;
+	int stdbot, maxrow, maxcol;
 
 	initscr();
-	stdbot = stdscr->_maxy;
+	getmaxyx(stdscr,maxrow,maxcol);
+	stdbot = maxrow;
+
 	
 	scrollok(stdscr,TRUE);
 	setscrreg(3,stdbot-3);

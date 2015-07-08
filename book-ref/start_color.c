@@ -29,7 +29,7 @@ int main(void)
 void bomb(int r)
 {
 	endwin();
-	printf("Color problem %d\nâ",r);
+	printf("Color problem %d\n",r);
 	exit(r);
 }
 
