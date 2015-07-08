@@ -1,4 +1,4 @@
-# Source Code from ``Programmer's Guide to NCurses'' by by Dan Gookin
+# Source Code from ``Programmer's Guide to NCurses'' by Dan Gookin
 
 [![Build Status](https://travis-ci.org/wkoszek/ncurses_guide.svg?branch=master)](https://travis-ci.org/wkoszek/ncurses_guide)
 
