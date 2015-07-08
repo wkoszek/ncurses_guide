@@ -1,4 +1,4 @@
-script: cd book && make && cd ../book-ref && make
+script: ./build.sh
 language: c
 compiler:
         - clang

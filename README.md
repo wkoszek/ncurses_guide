@@ -24,8 +24,11 @@ Fetch the source, enter its folder and type make:
 
 	git clone git@github.com:wkoszek/ncurses_guide.git
 	cd ncurses_guide
-	make
+	./build.sh
 
-The result of this will be a directory with ``.prog'' programs, each one
-corresponding to its .c file.
+The result of this will be in book/ and book-ref/ directories with ``.prog''
+programs, each one corresponding to its .c file.
 
+To clean-up, run:
+
+	./build.sh clean

@@ -4,9 +4,8 @@ SRCS_EXCLUDED=test.c	# add1.c is gzip file (?)
 SRCS=$(filter-out $(SRCS_EXCLUDED),$(SRCS_ALL))
 OBJECTS:=$(SRCS:.c=.prog)
 CFLAGS+=-Wall -pedantic -std=c99
-IS_GCC = $(shell cc --version | awk '/Free Software/ { i++ } END { print i ? "YES" : "NO" }')
 
-ifeq ($(IS_GCC),YES)
+ifeq ($(CC),gcc)
 CFLAGS+=-Wno-unused-but-set-variable
 endif
 
