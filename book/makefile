@@ -7,7 +7,8 @@ CFLAGS+=-Wall -pedantic -std=c99
 IS_GCC = $(shell ${CC} --version | awk '/Free Software/ { i++ } END { print i ? "YES" : "NO" }')
 
 ifeq ($(IS_GCC),YES)
-CFLAGS+=-Wno-unused-but-set-variable
+CFLAGS+=-Wno-unused-but-set-variable	# ncurses macros set but not use variables
+CFLAGS+=-Wno-address			# ncurses macros set some addresses too.
 endif
 
 all:	$(OBJECTS)
