@@ -22,7 +22,8 @@ For Ubuntu:
 
 Fetch the source, enter its folder and type make:
 
-	git clone git@github.com:wkoszek/ncurses_guide.git
+
+	git clone https://github.com/wkoszek/ncurses_guide.git
 	cd ncurses_guide
 	./build.sh
 
