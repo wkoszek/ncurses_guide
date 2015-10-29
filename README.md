@@ -33,3 +33,8 @@ programs, each one corresponding to its .c file.
 To clean-up, run:
 
 	./build.sh clean
+
+# Author
+
+- Wojciech Adam Koszek, [wojciech@koszek.com](mailto:wojciech@koszek.com)
+- [http://www.koszek.com](http://www.koszek.com)
