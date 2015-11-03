@@ -34,6 +34,12 @@ To clean-up, run:
 
 	./build.sh clean
 
+# Copyright
+
+Dan mentioned sources in `book/` and `book-ref` are copyrighted by the publisher.
+The rest of the files are licensed under BSD 2-clause license (see `COPYRIGHT.md`
+for more details)
+
 # Author
 
 - Wojciech Adam Koszek, [wojciech@koszek.com](mailto:wojciech@koszek.com)
