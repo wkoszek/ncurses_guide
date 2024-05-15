@@ -10,8 +10,7 @@ int main(void)
 
 	while(*t)			/* loop through the whole string */
 	{
-		addch(*t);		/* put one char to curscr */
-		t++;			/* increment the pointer */
+		addch(*t++);		/* put one char to curscr */
 		refresh();		/* update the screen */
 		napms(100);		/* delay a bit to see the display */
 	}				/* end while */
